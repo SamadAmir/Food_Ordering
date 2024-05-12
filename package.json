@@ -1,0 +1,12 @@
+{
+  "name": "Food-Order",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:admin\" \"npm run dev:backend\"",
+    "dev:admin": "cd admin && npm run dev",
+    "dev:backend": "cd backend && npm run start"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
